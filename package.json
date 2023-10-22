@@ -9,11 +9,15 @@
   "author": "Carlo & Mateus",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.13.0"
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "@types/node": "^20.8.7",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
-    "eslint": "^8.52.0"
+    "eslint": "^8.52.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
