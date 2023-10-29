@@ -10,9 +10,8 @@ module.exports = {
         .setDescription("The text to convert to sarcasm.")
         .setRequired(true)
     ),
-    async execute(interaction) {
-      const message = interaction.options.getString("text");
-      console.log('message', message);
-      await interaction.reply(message);
-    },
+  async execute(interaction) {
+    const message = interaction.options.getString("message");
+    await interaction.reply(message);
+  },
 };
